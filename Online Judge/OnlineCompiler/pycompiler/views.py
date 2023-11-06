@@ -4,7 +4,6 @@ import io
 import time
 import tracemalloc
 
-
 def index(request):
     return render(request, 'index.html')
 
