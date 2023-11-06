@@ -17,7 +17,6 @@ def runcode(request):
     if request.method == "POST":
         codeareadata = request.POST['codearea']
         inputdata = request.POST.get('input', '')
-
         try:
             # Save original standard output reference
             original_stdout = sys.stdout
