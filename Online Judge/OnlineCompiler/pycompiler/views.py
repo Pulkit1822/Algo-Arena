@@ -7,7 +7,6 @@ import tracemalloc
 def index(request):
     return render(request, 'index.html')
 
-
 def runcode(request):
     original_stdout = None
     output = None
