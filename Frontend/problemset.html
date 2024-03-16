@@ -37,32 +37,30 @@
             padding: 15px;  
             text-align: center;
         }
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+        }
     </style>  
 </head>
 <body>
     <div class="">
         <div class="max-w-[1200px] mx-auto h-full">
-            <div class="flex flex-row gap-2 max-w-[1172] mx-auto mt-4">
+            <div class="flex flex-row items-center justify-center gap-2 max-w-[1172] mx-auto mt-4">
                 <a class="text-green-800 text-4xl ml-2 mt-2 font-bold" href="/">ALGO ARENA</a>
                 <img src="./logo.jpeg" height="50px" width="60px" alt="" style="vertical-align: middle;">
-              </div>
-
-            <div class="flex justify-between items-center border border-gray-300 p-1 rounded-md mt-5 pl-4 pr-4 h-12">
-                <ul class="flex justify-start gap-12 navbar">
-                    <li>
-                        <a class="font-bold  text-indigo-500 " href="/">HOME</a>
-                    </li>
-                    <li>
-                        <a class="font-bold active text-indigo-500 " href="/problemset.html">PROBLEMSET</a>
-                    </li>
-                </ul>
-                
-                
             </div>
 
-            <div class="flex flex-row justify-center gap-8 rounded-md mt-5 border">
-                <a class="font-bold text-indigo-500 hover:text-red-600" href="/problemset.html">PROBLEMS</a>
-                <a class="font-bold text-indigo-500 hover:text-red-600" href="http://127.0.0.1:8000/">SUBMIT</a>
+            <div class="flex flex-row justify-center gap-8 rounded-md mt-9 border">
+                <a class="font-bold text-indigo-500 hover:text-red-600" href="/" style="font-size: 18px;">HOME</a>
+                <a class="font-bold text-indigo-500 hover:text-red-600" href="/problemset.html" style="font-size: 18px;">PROBLEMSET</a>
+                <a class="font-bold text-indigo-500 hover:text-red-600" href="http://127.0.0.1:8000/" style="font-size: 18px;">SUBMIT</a>
             </div>
             
             <table class="mt-10">
@@ -103,10 +101,13 @@
                     <td>49.1</td>
                 </tr>
             </table>
-
-            <div class="text-center mt-10 text-lg font-bold text-amber-600">
-                © 2023 ALGO ARENA
-            </div>
+                        <footer class="footer">
+                            &copy; 2023 ALGO ARENA
+                        </footer>
+                    </div>
+                </div>
+            </body>
+            </html>
             
         </div>
     </div>
