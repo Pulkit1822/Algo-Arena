@@ -4,10 +4,8 @@ import io
 import time
 import tracemalloc
 
-
 def index(request):
     return render(request, 'index.html')
-
 
 def runcode(request):
     original_stdout = None
@@ -19,7 +17,6 @@ def runcode(request):
     if request.method == "POST":
         codeareadata = request.POST['codearea']
         inputdata = request.POST.get('input', '')
-
         try:
             # Save original standard output reference
             original_stdout = sys.stdout
@@ -61,9 +58,7 @@ def runcode(request):
             sys.stdout = original_stdout
             output = e
             success_message = None
-
     # Finally, return and render the index page and then send code data and output to show on the page
     return render(request, 'index.html', {"code": codeareadata, "output": output, "execution_time": execution_time,
                                           "memory_usage": memory_usage, "memory_usage_mb": memory_usage_mb,
                                           "success_message": success_message})
-
