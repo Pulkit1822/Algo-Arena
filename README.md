@@ -1,85 +1,56 @@
-# Introduction
+# Online Code Submission and Execution Platform 💻
 
-The goal of this project is to provide minimalistic django project template that everyone can use, which _just works_ out of the box and has the basic setup you can expand on. 
+Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
 
-Template is written with django 1.11 and python 3 in mind.
+## Features 🚀
 
+- **Code Submission and Execution**: Users can submit their code through a web interface and execute it on the platform.
+- **Test Case Evaluation**: The platform evaluates the submitted code against predefined test cases, providing instant feedback on its correctness.
+- **Custom Input Support**: Users can input custom test cases to further test their solutions.
+- **Execution Time Tracking**: Utilizes Django's template language to display execution time alongside the output.
+- **Memory Usage Monitoring**: Tracks memory usage using the `tracemalloc` module to help users optimize their code.
+- **User Experience Enhancement**: Utilizes Bootstrap CSS and jQuery to improve the appearance and functionality of the platform's HTML template.
+- **Result Display**: Upon execution, users are presented with a screen indicating whether their code passed all test cases or not.
 
-### Main features
+## Usage 🛠️
 
-* Separated dev and production settings
+To use this platform, simply clone the repository and follow the setup instructions provided in the README. Once set up, users can access the platform through a web browser and start submitting and testing their code.
 
-* Example app with custom user model
+## Getting Started 🏁
 
-* Bootstrap static files included
+1. Clone the repository:
 
-* User registration and logging in as demo
+    ```bash
+    $ git clone https://github.com/your_username/online-code-platform.git
+    $ cd online-code-platform
+    ```
 
-* Procfile for easy deployments
+2. Set up the Django environment and dependencies:
 
-* Separated requirements files
+    ```bash
+    $ pip install -r requirements.txt
+    ```
 
-* SQLite by default if no env variable is set
+3. Run database migrations:
 
-# Usage
-
-To use this template to start your own project:
-
-### Existing virtualenv
-
-If your project is already in an existing python3 virtualenv first install django by running
-
-    $ pip install django
-    
-And then run the `django-admin.py` command to start the new project:
-
-    $ django-admin.py startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
-      --extension=py,md \
-      <project_name>
-      
-### No virtualenv
-
-This assumes that `python3` is linked to valid installation of python 3 and that `pip` is installed and `pip3`is valid
-for installing python 3 packages.
-
-Installing inside virtualenv is recommended, however you can start your project without virtualenv too.
-
-If you don't have django installed for python 3 then run:
-
-    $ pip3 install django
-    
-And then:
-
-    $ python3 -m django startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
-      --extension=py,md \
-      <project_name>
-      
-      
-After that just install the local dependencies, run migrations, and start the server.
-
-{% endif %}
-
-# Getting Started
-
-First clone the repository from Github and switch to the new directory:
-
-    $ git clone git@github.com/USERNAME/{{ project_name }}.git
-    $ cd {{ project_name }}
-    
-Activate the virtualenv for your project.
-    
-Install project dependencies:
-
-    $ pip install -r requirements/local.txt
-    
-    
-Then simply apply the migrations:
-
+    ```bash
     $ python manage.py migrate
-    
+    ```
 
-You can now run the development server:
+4. Start the development server:
 
+    ```bash
     $ python manage.py runserver
+    ```
+
+5. Access the platform in your browser at `http://localhost:8000` and start coding!
+
+## Workflow Screenshot 📸
+
+![Workflow](https://example.com/workflow-screenshot.png)
+
+## Feedback 📝
+
+If you have any feedback, suggestions, or encounter any issues while using the platform, please don't hesitate to open an issue on GitHub. Your input is invaluable and helps us improve the platform for everyone.
+
+![Demo](https://media.giphy.com/media/3o7TKRdSHouN9dGR2k/giphy.gif)
