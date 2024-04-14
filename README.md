@@ -48,20 +48,37 @@ To use this platform, simply clone the repository and follow the setup instructi
 
 ## Workflow Screenshot 📸
 
-![Workflow](https://example.com/workflow-screenshot.png)
-![Workflow](https://example.com/workflow-screenshot.png)
-![Workflow](https://example.com/workflow-screenshot.png)
-![Workflow](https://example.com/workflow-screenshot.png)
-![Workflow](https://example.com/workflow-screenshot.png)
-![Workflow](https://example.com/workflow-screenshot.png)
-![Workflow](https://example.com/workflow-screenshot.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.46.51%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.46.57%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.47.04%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.47.34%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.47.41%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.50.00%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.50.38%E2%80%AFAM.png)
 
 ## Project Presentation 📊
 
-For a more in-depth overview of the project, check out the PowerPoint presentation created specifically for demonstrating this project at my college. [Click here to view the presentation.](https://example.com/project-presentation.pptx)
+For a more in-depth overview of the project, check out the presentation created specifically for demonstrating this project at my college. [Click here to view the presentation.](https://github.com/Pulkit1822/Algo-Arena/blob/main/PROJECT%20EXHIBITION%20Final%20Review%20Grp%20no.%20-203.pdf)
+
+## Contribution
+
+If you have a better solution or want to suggest improvements, feel free to open an issue or submit a pull request. Contributions are always welcome!
 
 ## Feedback 📝
 
 If you have any feedback, suggestions, or encounter any issues while using the platform, please don't hesitate to open an issue on GitHub. Your input is invaluable and helps us improve the platform for everyone.
 
-![Demo](https://media.giphy.com/media/3o7TKRdSHouN9dGR2k/giphy.gif)
+<br/>
+<p align="center">
+  <a href="https://pulkitmathur.me/"><img src="https://github.com/Pulkit1822/Pulkit1822/blob/main/animated-icons/pic.jpeg" alt="portfolio" width="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/pulkitkmathur/"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" alt="Linkedin Logo" width="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="mailto:pulkitmathur.me@gmail.com"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg" alt="Gmail logo" height="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.instagram.com/pulkitkumarmathur/"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg" alt="Instagram Logo" width="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://twitter.com/pulkitkmathur"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" alt="Twitter Logo" width="32"></a>&nbsp;&nbsp;&nbsp;
+</p>
+
+Happy learning and coding!
+
+---
+
+If you find this repository useful, don't forget to star it! ⭐️
