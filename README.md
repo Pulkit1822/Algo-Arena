@@ -46,7 +46,7 @@ To use this platform, simply clone the repository and follow the setup instructi
 
 5. Access the platform in your browser at `http://localhost:8000` and start coding!
 
-## Workflow Screenshot 📸
+## Workflow Screenshots 📸
 
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.46.51%E2%80%AFAM.png)
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.46.57%E2%80%AFAM.png)
