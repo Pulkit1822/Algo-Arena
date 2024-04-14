@@ -60,7 +60,7 @@ To use this platform, simply clone the repository and follow the setup instructi
 
 For a more in-depth overview of the project, check out the presentation created specifically for demonstrating this project at my college. [Click here to view the presentation ↗️](https://github.com/Pulkit1822/Algo-Arena/blob/main/PROJECT%20EXHIBITION%20Final%20Review%20Grp%20no.%20-203.pdf)
 
-## Contribution 📝
+## Contribution 🫱🏻‍🫲🏼
 
 If you have a better solution or want to suggest improvements, feel free to open an issue or submit a pull request. Contributions are always welcome!
 
