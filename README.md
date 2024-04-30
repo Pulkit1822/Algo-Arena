@@ -1,13 +1,6 @@
-<div align="center">
-  <h1>🚀 Sponsor for Full Access 🚀</h1>
-  <p>To unlock all features and capabilities of this project, sponsorship is required.</p>
-</div>
-
----
-
 ### 💡 Explore Sponsorship Options
 
-Discover how you can support this project and gain access to exclusive benefits by exploring the sponsorship options available for this repository.
+To support this project, explore sponsorship options available for this repository, as every contribution counts and your support will greatly benefit its development.
 
 
 ---
