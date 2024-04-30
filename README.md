@@ -1,3 +1,16 @@
+<div align="center">
+  <h1>🚀 Sponsor for Full Access 🚀</h1>
+  <p>To unlock all features and capabilities of this project, sponsorship is required.</p>
+</div>
+
+---
+
+### 💡 Explore Sponsorship Options
+
+Discover how you can support this project and gain access to exclusive benefits by exploring the sponsorship options available for this repository.
+
+
+---
 # Online Code Submission and Execution Platform 💻
 
 Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
