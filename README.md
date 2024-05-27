@@ -10,7 +10,8 @@ Welcome to the Online Code Submission and Execution Platform! This project imple
 
 ## Results 📝
 
-
+Here are my scores:
+![Result](https://github.com/Pulkit1822/Algo-Arena/blob/main/result.png)
 
 ## Features 🚀
 
