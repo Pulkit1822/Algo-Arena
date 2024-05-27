@@ -1,12 +1,16 @@
+# [Online Code Submission and Execution Platform](https://github.com/Pulkit1822/Algo-Arena)
+
+Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
+
+---
+
 ### 💡 Explore Sponsorship Options
 
 To support this project, explore sponsorship options available for this repository, as every contribution counts and your support will greatly benefit its development 😊
 
 
 ---
-# Online Code Submission and Execution Platform 💻
 
-Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
 
 ## Results 📝
 
@@ -101,3 +105,5 @@ Happy learning and coding!
 ---
 
 If you find this repository useful, don't forget to star it! ⭐️
+
+### Written by [Pulkit](https://github.com/Pulkit1822)
