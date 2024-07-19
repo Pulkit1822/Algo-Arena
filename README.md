@@ -1,4 +1,5 @@
-# [Online Code Submission and Execution Platform](https://github.com/Pulkit1822/Algo-Arena)
+# [Algo Arena](https://github.com/Pulkit1822/Algo-Arena)
+![Algo Arena](https://github.com/Pulkit1822/Personal-Portfolio/blob/main/public/projects/oj.jpg)
 
 Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
 
@@ -92,7 +93,7 @@ If you have any feedback, suggestions, or encounter any issues while using the p
 
 <br/>
 <p align="center">
-  <a href="https://pulkitmathur.me/"><img src="https://github.com/Pulkit1822/Pulkit1822/blob/main/animated-icons/pic.jpeg" alt="portfolio" width="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://pulkitmathur.tech/"><img src="https://github.com/Pulkit1822/Pulkit1822/blob/main/animated-icons/pic.jpeg" alt="portfolio" width="32"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/pulkitkmathur/"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg" alt="Linkedin Logo" width="32"></a>&nbsp;&nbsp;&nbsp;
   <a href="mailto:pulkitmathur.me@gmail.com"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg" alt="Gmail logo" height="32"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/pulkitkumarmathur/"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg" alt="Instagram Logo" width="32"></a>&nbsp;&nbsp;&nbsp;
