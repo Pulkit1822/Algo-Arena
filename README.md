@@ -1,5 +1,10 @@
-# [Algo Arena](https://github.com/Pulkit1822/Algo-Arena)
-![Algo Arena](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.50.00%E2%80%AFAM.png)
+<p align="center">
+  <a href="https://github.com/Pulkit1822/Algo-Arena">
+    <img src="https://github.com/Pulkit1822/Personal-Portfolio/blob/main/dist/projects/oj.jpg" height="128">
+  </a>
+  <h1 align="center">Algo Arena</h1>
+</p>
+
 
 Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
 
