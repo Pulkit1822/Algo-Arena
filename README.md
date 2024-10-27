@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Pulkit1822/Algo-Arena">
-    <img src="https://github.com/Pulkit1822/Personal-Portfolio/blob/main/dist/projects/oj.jpg" height="128">
+    <img src="https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/logo.jpg" height="128">
   </a>
   <h1 align="center">Algo Arena</h1>
 </p>
