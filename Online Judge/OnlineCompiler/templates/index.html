@@ -1,27 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Required meta tags for proper rendering and touch zooming -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Link to Bootstrap CSS for styling -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Font Awesome CSS -->
+    <!-- Link to Font Awesome CSS for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <!-- Page title -->
     <title>AA's Online Judge</title>
 
     <style>
+      /* Set the font for the entire body */
       body {
         font-family: Verdana;
       }
 
+      /* Container styling with top and bottom margins */
       .container {
         margin-top: 14px;
         margin-bottom: 50px;
       }
 
+      /* Header styling with flexbox for layout */
       .header {
         display: flex;
         justify-content: space-between;
@@ -29,38 +33,46 @@
         margin-bottom: 50px;
       }
 
+      /* Center the header title */
       .header h1 {
         flex-grow: 1;
         text-align: center;
       }
 
+      /* Margin for the button in the header */
       .header button {
         margin-left: auto;
       }
 
+      /* Logo styling with height and margin */
       .header .logo {
         height: 50px; /* Adjust the height as needed */
         margin-right: 10px;
       }
 
+      /* Margin for form groups */
       .form-group {
         margin-bottom: 20px;
       }
 
+      /* Margin for alert messages */
       .alert {
         margin-bottom: 20px;
       }
 
+      /* Center text utility class */
       .text-center {
         text-align: center;
       }
 
+      /* Editor styling with border and height */
       #editor {
         border: 1px solid #ced4da;
         height: 400px;
         background-color: white;
       }
 
+      /* Form control styling with border and font size */
       .form-control {
         border: 1px solid #ced4da;
         font-size: 15px;
@@ -92,19 +104,24 @@
   <body>
     <div class="container">
       <div class="header">
+        <!-- Logo image with styling -->
         <img src="https://res.cloudinary.com/dsf0guzl6/image/upload/v1730069701/Screenshot_2024-10-28_at_4.24.38_AM_cmo1hu.png" alt="Logo" class="logo" style="width: 80px; height: auto; border-radius: 18%;">
+        <!-- Header title -->
         <h1>Algo Arena's Online Judge</h1>
+        <!-- Button to toggle theme with icon -->
         <button id="toggleTheme" class="btn btn-secondary rounded-circle" style="transition: background-color 0.3s, transform 0.3s;">
           <i id="themeIcon" class="fas fa-moon"></i>
         </button>
       </div>
 
+      <!-- Form for submitting code -->
       <form id="codeForm" action="/runcode" method="post" onsubmit="return validateForm()">
-        {% csrf_token %}
+        {% csrf_token %} <!-- CSRF token for security -->
 
-        <!-- Display success or error messages -->
+        <!-- Error message for empty code submission -->
         <div id="error-message" class="alert alert-danger text-center" style="display: none;">Error: No code written.</div>
 
+        <!-- Conditional messages based on server response -->
         {% if success_message %}
           <div class="alert alert-success text-center">{{ success_message }}</div>
         {% elif code %}
@@ -118,8 +135,8 @@
           <div class="col-md-8">
             <div class="form-group">
               <label for="editor">Enter your code here:</label>
-              <div id="editor"></div>
-              <textarea id="codearea" name="codearea" style="display:none;">{{ code }}</textarea>
+              <div id="editor"></div> <!-- Monaco Editor container -->
+              <textarea id="codearea" name="codearea" style="display:none;">{{ code }}</textarea> <!-- Hidden textarea to store code -->
             </div>
           </div>
 
@@ -127,12 +144,12 @@
           <div class="col-md-4">
             <div class="form-group">
               <label for="input">Enter Input:</label>
-              <textarea class="form-control" id="input" name="input" rows="3"></textarea>
+              <textarea class="form-control" id="input" name="input" rows="3"></textarea> <!-- Input textarea -->
             </div>
 
             <div class="form-group">
               <label for="output">Output</label>
-              <textarea class="form-control" id="output" name="output" rows="4" disabled>{{ output }}</textarea>
+              <textarea class="form-control" id="output" name="output" rows="4" disabled>{{ output }}</textarea> <!-- Output textarea (disabled) -->
             </div>
           </div>
         </div>
@@ -140,12 +157,12 @@
         <!-- Display execution time and memory usage -->
         <p class="text-center">Execution Time: {{ execution_time }} seconds &nbsp;&nbsp;&nbsp; <br> Memory Usage: {{ memory_usage_mb }} MB</p>
         <div class="text-center">
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button> <!-- Submit button -->
         </div>
       </form>
     </div>
 
-    <!-- Bootstrap JS -->
+    <!-- Bootstrap JS dependencies -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -153,27 +170,30 @@
     <!-- Monaco Editor -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.30.1/min/vs/loader.min.js"></script>
     <script>
+      // Function to validate form submission
       function validateForm() {
         var codearea = document.getElementById('codearea').value.trim();
         var errorMessage = document.getElementById('error-message');
 
         if (codearea === "") {
-          errorMessage.style.display = 'block';
+          errorMessage.style.display = 'block'; // Show error message if code is empty
           return false;
         } else {
-          errorMessage.style.display = 'none';
+          errorMessage.style.display = 'none'; // Hide error message if code is not empty
           return true;
         }
       }
 
+      // Configure Monaco Editor paths
       require.config({ paths: { 'vs': 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.30.1/min/vs' }});
       require(['vs/editor/editor.main'], function() {
+        // Create Monaco Editor instance
         var editor = monaco.editor.create(document.getElementById('editor'), {
-          value: document.getElementById('codearea').value,
-          language: 'python',
-          theme: 'vs-light',
+          value: document.getElementById('codearea').value, // Set initial value from hidden textarea
+          language: 'python', // Set language mode to Python
+          theme: 'vs-light', // Set initial theme to light
           fontSize: 15, // Set font size for Monaco Editor
-          automaticLayout: true
+          automaticLayout: true // Enable automatic layout adjustment
         });
 
         // Update hidden textarea with editor content on form submit
