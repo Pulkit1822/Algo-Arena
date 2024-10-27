@@ -23,6 +23,10 @@ To support this project, explore sponsorship options available for this reposito
 Here are my scores:
 ![Result](https://github.com/Pulkit1822/Algo-Arena/blob/main/result.png)
 
+Here are the updated sections with the new changes and features added:
+
+---
+
 ## Features 🚀
 
 - **Code Submission and Execution**: Users can submit their code through a web interface and execute it on the platform.
@@ -33,6 +37,10 @@ Here are my scores:
 - **Error Suggestions**: Provides suggestions for fixing errors in the code by highlighting the particular section where the mistake is located.
 - **User Experience Enhancement**: Utilizes Bootstrap CSS and jQuery to improve the appearance and functionality of the platform's HTML template.
 - **Result Display**: Upon execution, users are presented with a screen indicating whether their code passed all test cases or not.
+- **Monaco Editor**: Implemented the Monaco editor for better Python language readability and an enhanced code editing experience.
+- **Dark Mode**: Added a dark mode facility for reducing eye strain and improving usability in low-light environments.
+- **Responsive UI**: Enhanced the UI to be more responsive, providing a better experience on various devices.
+
 
 ## Usage 🛠️
 
