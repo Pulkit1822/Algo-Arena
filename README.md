@@ -82,8 +82,11 @@ To use this platform, simply clone the repository and follow the setup instructi
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.47.04%E2%80%AFAM.png)
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.47.34%E2%80%AFAM.png)
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.47.41%E2%80%AFAM.png)
-![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.50.00%E2%80%AFAM.png)
-![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/Screenshot%202024-04-15%20at%201.50.38%E2%80%AFAM.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/light%20mode.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/dark%20mode.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/wrong%20answer%20page.png)
+![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/correct%20answer%20page.png)
+
 
 ## Project Presentation 📊
 
