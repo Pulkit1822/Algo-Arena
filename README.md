@@ -93,7 +93,7 @@ To use this platform, simply clone the repository and follow the setup instructi
 For a more in-depth overview of the project, check out the presentation created specifically for demonstrating this project at my college. 
 [Click here to view the presentation ↗️](https://github.com/Pulkit1822/Algo-Arena/blob/main/PROJECT%20EXHIBITION%20Final%20Review%20Grp%20no.%20-203.pdf). 
 
-*Please note that the major change #2 has been implemented recently, so it has not been included in the presentation.*
+*Please note that the major change #2 has been implemented in October 2024, so it has not been included in the presentation.*
 
 ## Contribution 🫱🏻‍🫲🏼👥
 
