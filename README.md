@@ -5,29 +5,27 @@
   <h1 align="center">Algo Arena</h1>
 </p>
 
+## Project Overview
 
-Welcome to the Online Code Submission and Execution Platform! This project implements a web-based platform using the Django framework to facilitate online code submission and execution. Inspired by platforms like LeetCode, it allows users to test their code against provided test cases, view execution time and memory usage, and receive immediate feedback on the correctness of their solutions.
+Algo Arena is a comprehensive platform for competitive programming and algorithm development. It provides a user-friendly interface for users to solve problems based on Data Structures and Algorithms (DSA). The platform includes a frontend for problem listings, problem details, code submission, and result display, as well as an online judge system that evaluates submitted code against test cases and provides instant feedback on correctness.
 
----
+## Technologies Used
 
-### 💡 Explore Sponsorship Options
+- **Frontend**:
+  - **HTML**: For structuring the web pages.
+  - **CSS**: For styling the web pages.
+  - **JavaScript**: For adding interactivity to the web pages.
+  - **Tailwind CSS**: For utility-first CSS framework to style the application.
+  - **Vite**: For fast and optimized development build.
 
-To support this project, explore sponsorship options available for this repository, as every contribution counts and your support will greatly benefit its development 😊
+- **Backend**:
+  - **Python**: The primary programming language used for the backend.
+  - **Django**: A high-level Python web framework used to build the online judge system.
+  - **SQLite**: A lightweight database used for storing user submissions and problem data.
+  - **Bootstrap**: A CSS framework used for styling the web pages.
+  - **Monaco Editor**: A code editor that provides a rich coding experience for users.
 
-
----
-
-
-## Results 📝
-
-Here are my scores:
-![Result](https://github.com/Pulkit1822/Algo-Arena/blob/main/result.png)
-
-Here are the updated sections with the new changes and features added:
-
----
-
-## Features 🚀
+## Key Features
 
 - **Code Submission and Execution**: Users can submit their code through a web interface and execute it on the platform.
 - **Test Case Evaluation**: The platform evaluates the submitted code against predefined test cases, providing instant feedback on its correctness.
@@ -41,39 +39,81 @@ Here are the updated sections with the new changes and features added:
 - **Dark Mode**: Added a dark mode facility for reducing eye strain and improving usability in low-light environments.
 - **Responsive UI**: Enhanced the UI to be more responsive, providing a better experience on various devices.
 
+## Setup and Run Locally
 
-## Usage 🛠️
+To set up and run the entire project locally, follow these steps:
 
-To use this platform, simply clone the repository and follow the setup instructions provided in the README. Once set up, users can access the platform through a web browser and start submitting and testing their code.
-
-## Getting Started 🏁
-
-1. Clone the repository:
-
+1. **Clone the repository**:
     ```bash
-    $ git clone https://github.com/your_username/online-code-platform.git
-    $ cd online-code-platform
+    git clone https://github.com/Pulkit1822/Algo-Arena.git
+    cd Algo-Arena
     ```
 
-2. Set up the Django environment and dependencies:
-
+2. **Frontend Setup**:
     ```bash
-    $ pip install -r requirements.txt
+    cd Frontend
+    npm install
+    npm start
     ```
 
-3. Run database migrations:
-
+3. **Backend Setup**:
     ```bash
-    $ python manage.py migrate
+    cd ../Online\ Judge/OnlineCompiler
+    pip install -r requirements.txt
+    python manage.py migrate
+    python manage.py runserver
     ```
 
-4. Start the development server:
-
+4. **Open the application in your browser**:
     ```bash
-    $ python manage.py runserver
+    http://localhost:3000 (Frontend)
+    http://localhost:8000 (Backend)
     ```
 
-5. Access the platform in your browser at `http://localhost:8000` and start coding!
+## Contribution Guidelines
+
+We welcome contributions to the Algo Arena project. To contribute, follow these steps:
+
+1. **Fork the repository**: Click on the "Fork" button at the top right corner of the repository page.
+
+2. **Clone your forked repository**:
+    ```bash
+    git clone https://github.com/your-username/Algo-Arena.git
+    cd Algo-Arena
+    ```
+
+3. **Create a new branch**:
+    ```bash
+    git checkout -b feature-branch
+    ```
+
+4. **Make your changes**: Implement your changes and commit them with a meaningful commit message.
+
+5. **Push your changes**:
+    ```bash
+    git push origin feature-branch
+    ```
+
+6. **Create a pull request**: Go to the original repository and create a pull request from your forked repository.
+
+Thank you for contributing to Algo Arena!
+
+---
+
+### 💡 Explore Sponsorship Options
+
+To support this project, explore sponsorship options available for this repository, as every contribution counts and your support will greatly benefit its development 😊
+
+---
+
+## Results 📝
+
+Here are my scores:
+![Result](https://github.com/Pulkit1822/Algo-Arena/blob/main/result.png)
+
+Here are the updated sections with the new changes and features added:
+
+---
 
 ## Workflow Screenshots 📸
 
@@ -86,7 +126,6 @@ To use this platform, simply clone the repository and follow the setup instructi
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/dark%20mode.png)
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/wrong%20answer%20page.png)
 ![Workflow](https://github.com/Pulkit1822/Algo-Arena/blob/main/Workflows/correct%20answer%20page.png)
-
 
 ## Project Presentation 📊
 
@@ -121,7 +160,6 @@ If you have any feedback, suggestions, or encounter any issues while using the p
 </p>
 
 Happy learning and coding!
-
 
 ---
 
